@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="/app.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="container">
+
+    <h1>JOIN US</h1>
+    
+
+    <h2>Google Emails</h2>
+    <p class="hope">There are total Google emails: <strong><%=google%></strong> in total.</p>
+
+    <h3>Yahoo Emails</h3>
+    <p class="yaho">There are total Yahoo emails: <strong><%=yahooemail%></strong> in total.</p>
+    <h3>Hotmail Emails</h3>
+
+    <p class="hot">There are total Hotmail emails: <strong><%=hotmails%></strong> final count.</p>
+
+    <p class="lead">Enter your email to join <strong><%=data%></strong> others on our waitlist. We are 100% not a cult.</p>
+
+    <form method="post" action="/register">
+        <input type="text" name="email" class="form" placeholder="Enter your email">
+        <button>Join Now</button>
+    </form>
+
+</div>
+</div>
+
+</body>
+
+
+</html>
